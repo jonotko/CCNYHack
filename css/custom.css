@@ -18,6 +18,10 @@ body {
     background-size: cover;
     -o-background-size: cover;
 }
+
+.img-padding{
+    padding-top: 10px;
+}
 header.container-fluid{
     display: block;
     max-width: 1380px;
