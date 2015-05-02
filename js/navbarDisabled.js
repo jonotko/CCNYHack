@@ -18,7 +18,7 @@ document.write("                    <li>");
 document.write("                        <a href=\"user.html\">My profile<\/a>");
 document.write("                    <\/li>");
 document.write("                    <li>");
-document.write("                        <a href=\"addPosting.php\">Add a posting<\/a>");
+document.write("                        <a href=\"addPosting.html\">Add a posting<\/a>");
 document.write("                    <\/li>");
 document.write("                    <li>");
 document.write("                        <a href=\"postings.php\">View postings<\/a>");
