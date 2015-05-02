@@ -13,7 +13,11 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+<<<<<<< HEAD
     <link href="css/business-frontpage.css" rel="stylesheet">
+=======
+    <link href="css/custom.css" rel="stylesheet">
+>>>>>>> 8538e7004c9b66a2b513383d3df8a4f11f874033
 
 </head>
 

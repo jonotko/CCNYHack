@@ -13,29 +13,50 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-<<<<<<< HEAD
-    <link href="css/business-frontpage.css" rel="stylesheet">
-=======
     <link href="css/custom.css" rel="stylesheet">
->>>>>>> 8538e7004c9b66a2b513383d3df8a4f11f874033
+    
+    <script src="js/jquery.js"></script>
+    <!-- jQuery library (served from Google) -->
+<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>-->
+<!-- bxSlider Javascript file -->
+<script src="jquery.bxslider/jquery.bxslider.min.js"></script>
+<!-- bxSlider CSS file -->
+<link href="jquery.bxslider/jquery.bxslider.css" rel="stylesheet" />
+
 
 </head>
 
 <body>
+    
 <script src="js/navbar.js"></script>
 
     <!-- Image Background Page Header -->
     <!-- Note: The background image is set within the business-casual.css file. -->
-    <header class="business-header">
-        <div class="container">
+    <header class="container-fluid">
+    <script type="text/javascript" >
+       $(document).ready(function(){
+        $('.bxslider').bxSlider({
+            auto: true,
+        });    
+        });
+    </script>
+    
+        <ul class="bxslider">
+          <li><img src="http://i.imgur.com/F7DUIAl.jpg"/></li>
+          <li><img src="http://i.imgur.com/i9dMaxb.jpg"/></li>
+          <li><img src="http://i.imgur.com/5y8GtsO.jpg"/></li>
+        </ul>
+        <!--<div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="tagline">Name</h1>
+                    <h1 class="tagline">Assit-U</h1>
                 </div>
             </div>
-        </div>
+        </div>-->
     </header>
-
+    <!--<header class="business-header">
+    </header>-->
+    
     <!-- Page Content -->
     <div class="container">
 
@@ -45,7 +66,6 @@
             <div class="col-sm-8">
                 <h2>What We Do</h2>
                 <p>Help create connections between disabled college students and college students willing to assist them</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et molestiae similique eligendi reiciendis sunt distinctio odit? Quia, neque, ipsa, adipisci quisquam ullam deserunt accusantium illo iste exercitationem nemo voluptates asperiores.</p>
             </div>
 
         </div>
@@ -65,6 +85,9 @@
             </div>
         </div>
         <!-- /.row -->
+        <br />
+        <br />
+        <blockquote align="center">"Everyday do an act of kindness"</blockquote>
 
         <hr>
 
@@ -80,9 +103,9 @@
 
     </div>
     <!-- /.container -->
-
+    
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <!--<script src="js/jquery.js"></script>-->
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
