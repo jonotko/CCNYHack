@@ -21,7 +21,7 @@ document.write("                    <li>");
 document.write("                        <a href=\"addPosting.html\">Add a posting<\/a>");
 document.write("                    <\/li>");
 document.write("                    <li>");
-document.write("                        <a href=\"postings.php\">View postings<\/a>");
+document.write("                        <a href=\"postings.html\">View postings<\/a>");
 document.write("                    <\/li>");
 document.write("                    <li>");
 document.write("                        <a href=\"about.php\">About<\/a>");

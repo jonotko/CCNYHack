@@ -18,7 +18,7 @@ document.write("                    <li>");
 document.write("                        <a href=\"about.php\">About<\/a>");
 document.write("                    <\/li>");
 document.write("                    <li>");
-document.write("                        <a href=\"postings.php\">View postings<\/a>");
+document.write("                        <a href=\"postings.html\">View postings<\/a>");
 document.write("                    <\/li>");
 document.write("                <\/ul>");
 document.write("			 <ul class=\"nav navbar-nav navbar-right\">");
