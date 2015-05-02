@@ -47,3 +47,13 @@ header.container-fluid{
 footer {
     margin: 50px 0;
 }
+
+.divider
+{
+border-right:1px solid black;
+}
+.centeredContainer
+{
+width:50%;
+margin:0 auto;
+}
