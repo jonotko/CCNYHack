@@ -9,15 +9,7 @@ document.write("                    <span class=\"icon-bar\"><\/span>");
 document.write("                    <span class=\"icon-bar\"><\/span>");
 document.write("                    <span class=\"icon-bar\"><\/span>");
 document.write("                <\/button>");
-<<<<<<< HEAD
 document.write("                <a class=\"navbar-brand\" href=\"index.html\">Assist-U<\/a>");
-=======
-<<<<<<< HEAD
-document.write("                <a class=\"navbar-brand\" href=\"index.php\">Brand<\/a>");
-=======
-document.write("                <a class=\"navbar-brand\" href=\"index.php\">Assist-U<\/a>");
->>>>>>> 8538e7004c9b66a2b513383d3df8a4f11f874033
->>>>>>> origin/master
 document.write("            <\/div>");
 document.write("            <!-- Collect the nav links, forms, and other content for toggling -->");
 document.write("            <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">");
