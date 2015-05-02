@@ -35,7 +35,7 @@
     <input type="password" class="form-control" id="password" placeholder="Password">
   </div>
   </div>
-	<input class="btn btn-default" type="submit" value="Log in">
+	<input class="btn btn-default" type="button" value="Log in" onClick="parent.location='index2.html'">
   </form>
   </div>
 	
