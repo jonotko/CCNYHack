@@ -13,36 +13,67 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+<<<<<<< HEAD
+    <link href="css/business-frontpage.css" rel="stylesheet">
+=======
     <link href="css/custom.css" rel="stylesheet">
+>>>>>>> 8538e7004c9b66a2b513383d3df8a4f11f874033
 
 </head>
 
 <body>
 <script src="js/navbar.js"></script>
     <div class="container">
+<<<<<<< HEAD
+	<h2>Sign up</h2>
+	<form>
+  <div class="form-group row">
+  <div class="col-md-4">
+=======
 	<div class="col-md-5">
 	<h2>Sign up to volunteer</h2>
 	<form class="divider">
   <div class="form-group row">
   <div class="col-md-6">
+>>>>>>> 8538e7004c9b66a2b513383d3df8a4f11f874033
     <label for="username">Username</label>
     <input type="text" class="form-control" id="username" placeholder="Enter username">
   </div>
   </div>
     <div class="form-group row">
+<<<<<<< HEAD
+  <div class="col-md-4">
+=======
   <div class="col-md-6">
+>>>>>>> 8538e7004c9b66a2b513383d3df8a4f11f874033
     <label for="email">Email</label>
     <input type="email" class="form-control" id="email" placeholder="Enter email address">
   </div>
   </div>
   <div class="form-group row">
+<<<<<<< HEAD
+  <div class="col-md-4">
+=======
   <div class="col-md-6">
+>>>>>>> 8538e7004c9b66a2b513383d3df8a4f11f874033
     <label for="password1">Password</label>
     <input type="password" class="form-control" id="password1" placeholder="Password">
   </div>
   </div>
   
   <div class="form-group row">
+<<<<<<< HEAD
+  <div class="col-md-4">
+    <input type="password" class="form-control" id="password2" placeholder="Re-enter password">
+  </div>
+  </div>
+	<input class="btn btn-default" type="submit" value="Sign up">
+  </form>
+  </div>
+  
+	
+	
+=======
   <div class="col-md-6">
     <input type="password" class="form-control" id="password2" placeholder="Re-enter password">
   </div>
@@ -81,6 +112,7 @@
 	<input class="btn btn-default" type="submit" value="Sign up!">
     </form>
   </div>
+>>>>>>> 8538e7004c9b66a2b513383d3df8a4f11f874033
 	
 	<!-- jQuery -->
     <script src="js/jquery.js"></script>
