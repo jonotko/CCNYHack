@@ -8,8 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <title>Login</title>
 
-    <title>Login </title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -35,6 +35,7 @@
     <input type="password" class="form-control" id="password" placeholder="Password">
   </div>
   </div>
+	<input class="btn btn-default" type="submit" value="Log in">
   </form>
   </div>
 	
