@@ -13,45 +13,74 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <link href="css/business-frontpage.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 
 </head>
 
 <body>
 <script src="js/navbar.js"></script>
     <div class="container">
-	<h2>Sign up</h2>
-	<form>
+	<div class="col-md-5">
+	<h2>Sign up to volunteer</h2>
+	<form class="divider">
   <div class="form-group row">
-  <div class="col-md-4">
+  <div class="col-md-6">
     <label for="username">Username</label>
     <input type="text" class="form-control" id="username" placeholder="Enter username">
   </div>
   </div>
     <div class="form-group row">
-  <div class="col-md-4">
+  <div class="col-md-6">
     <label for="email">Email</label>
     <input type="email" class="form-control" id="email" placeholder="Enter email address">
   </div>
   </div>
   <div class="form-group row">
-  <div class="col-md-4">
+  <div class="col-md-6">
     <label for="password1">Password</label>
     <input type="password" class="form-control" id="password1" placeholder="Password">
   </div>
   </div>
   
   <div class="form-group row">
-  <div class="col-md-4">
+  <div class="col-md-6">
     <input type="password" class="form-control" id="password2" placeholder="Re-enter password">
   </div>
   </div>
-	<input class="btn btn-default" type="submit" value="Sign up">
-  </form>
+	<input class="btn btn-default" type="submit" value="Sign up!">
+    </form>
+  </div>
+    <div class="container">
+	<div class="col-md-5">
+	<h2>Sign up for assistance</h2>
+	<form>
+  <div class="form-group row">
+  <div class="col-md-6">
+    <label for="username2">Username</label>
+    <input type="text" class="form-control" id="username2" placeholder="Enter username">
+  </div>
+  </div>
+    <div class="form-group row">
+  <div class="col-md-6">
+    <label for="email2">Email</label>
+    <input type="email" class="form-control" id="email2" placeholder="Enter email address">
+  </div>
+  </div>
+  <div class="form-group row">
+  <div class="col-md-6">
+    <label for="password3">Password</label>
+    <input type="password" class="form-control" id="password3" placeholder="Password">
+  </div>
   </div>
   
-	
-	
+  <div class="form-group row">
+  <div class="col-md-6">
+    <input type="password" class="form-control" id="password4" placeholder="Re-enter password">
+  </div>
+  </div>
+	<input class="btn btn-default" type="submit" value="Sign up!">
+    </form>
+  </div>
 	
 	<!-- jQuery -->
     <script src="js/jquery.js"></script>
